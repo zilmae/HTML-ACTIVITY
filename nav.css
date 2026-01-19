@@ -1,138 +1,53 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #3e121a ;
-    
-}
-h1 {
-  color: white; 
-  font-family: georgia;
-  text-shadow: 0 0 10px #fff, 
-               0 0 20px #D3D3D3,
-               0 0 30px #D3D3D3;
-	
-}
-p {
-  background-color: #141414;
-  font-family: georgia;
-  line-height: 2;
-  width: 1000px;
-  border: 15px;
-  padding: 50px;
-  margin: auto;
-  border-radius: 40px;
-  text-align: center;
-  color: white;
-  text-shadow: 0 0 10px #3e121a, 
-               0 0 20px #D3D3D3,
-               0 0 30px #D3D3D3;
-	
-}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #41262b  ;
-  display: flex;
-  justify-content: center;
-   text-shadow: 0 0 10px #3e121a, 
-               0 0 20px #D3D3D3,
-               0 0 30px #D3D3D3;
- 
-}
+<!DOCTYPE html>
+<html>
+<head>
 
-ul li a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  border-radius: 10px;
-}
+<title>beginning</title>
+  <link rel="stylesheet" href="nav.css">
+  
+  <style>
+     .image-style {
+            border: 5px solid #808080;  
+            border-radius: 15px;
+			 box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+			
+        }
+		</style>
+</head>
 
-ul li a:hover {
-  background-color: #808080;
+<body>
 
-}
-  .button {
-  background-color: #808080 ;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  text-shadow: 0 0 10px #3e121a, 
-               0 0 20px #D3D3D3,
-               0 0 30px #D3D3D3;
-  position: abosulute;
+<div id="navbar">
+<ul>
+  <li><a href="index.html" area="_self">Home</a></li>
+  <li><a href="storypage.html" area="_self">The Tale</a></li>
+  <li><a href="about.html" area="_self">Behind the Legend</a></li>
+  <li><a href="profile.html" area="_self">My Profile</a></li>
+</ul></div>
 
-     
-}
+<h1 align="center">Beginning </h1>
+<hr>
 
-.button1 {border-radius: 10px;}
-.button2 {border-radius: 10px;}
-.button3 {border-radius: 10px;}
-.button4 {border-radius: 10px;}
-.button5 {border-radius: 10px;}
-.button6 {border-radius: 10px;}
-.button7 {border-radius: 10px;}
-.button8 {border-radius: 10px;}
-.button9 {border-radius: 10px;}
-}
+<div style="text-align: center;" class="container">
+<img src="tiyanakb.png" alt="tiyanak" width="800" height="600" class="image-style"  >
+</div>
 
-.button1:hover {
-  background-color: #41262b ;
-  color: white;
-}
+<br>
+<hr>
+<br>
 
-.button2:hover {
-  background-color: #41262b ;
-  color: white;
-}
 
-.button3:hover {
-  background-color: #41262b ;
-  color: white;
+<p>
+Long ago, in a remote village hidden between towering mountains and a vast, shadowy forest, the nights were filled with mystery and fear. When the moon rose high and the wind whispered through the trees, a soft and sorrowful cry could often be heard echoing through the darkness. It was the sound of a baby—weak, trembling, and filled with sadness. The villagers were gentle and compassionate people, so hearing such cries tugged at their hearts. Many believed that an infant had been abandoned or lost, and they felt it was their duty to help anyone in need, even if it meant venturing into the forest after dark.
+<br>
+Yet, the elders of the village gathered the people and warned them of an ancient legend passed down through generations—the legend of the Tiyanak. They described it as a cunning and evil creature that could change its form, disguising itself as a helpless baby to deceive kind souls. The elders spoke of travelers who vanished and of footprints that led deep into the forest but never returned. Still, some villagers laughed at these tales, believing they were only bedtime stories meant to control children and keep them from wandering too far at night.
+</p><br>
 
-}
-.button4:hover {
-  background-color: #41262b ;
-  color: white;
-}
-.button5:hover {
-  background-color: #41262b ;
-  color: white;
- }
-.button6:hover {
-  background-color: #41262b ;
-  color: white;
-}
-.button7:hover {
-  background-color: #41262b ;
-  color: white;
-}
-.button8:hover {
-  background-color: #41262b ;
-  color: white;
-}
-.button9:hover {
-  background-color: #41262b  ;
-  color: red;
-}
+<div class="button-container">
 
-.container {
-  display: grid;
-  place-items: center; 
-  height: 100vh;  
-}
-.button-container {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-    text-decoration: none;
-	 color: inherit;    
-}
+<button class="button button4"><a href="middle.html" class="button-link">Next Page</button> 
+</div>
+<h2 style="text-align: center; font-size:14px;"> © Digital Storybook | Lizzie Mae A. Samia</h2>
+</body>
+</html>
