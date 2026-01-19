@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3e121a ;
+    
+}
+h1 {
+  color: white; 
+  font-family: georgia;
+  text-shadow: 0 0 10px #fff, 
+               0 0 20px #D3D3D3,
+               0 0 30px #D3D3D3;
+	
+}
+p {
+  background-color: #141414;
+  font-family: georgia;
+  line-height: 2;
+  width: 1000px;
+  border: 15px;
+  padding: 50px;
+  margin: auto;
+  border-radius: 40px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px #3e121a, 
+               0 0 20px #D3D3D3,
+               0 0 30px #D3D3D3;
+	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #41262b  ;
+  display: flex;
+  justify-content: center;
+   text-shadow: 0 0 10px #3e121a, 
+               0 0 20px #D3D3D3,
+               0 0 30px #D3D3D3;
+ 
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+ul li a:hover {
+  background-color: #808080;
+
+}
+  .button {
+  background-color: #808080 ;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  text-shadow: 0 0 10px #3e121a, 
+               0 0 20px #D3D3D3,
+               0 0 30px #D3D3D3;
+  position: abosulute;
+
+     
+}
+
+.button1 {border-radius: 10px;}
+.button2 {border-radius: 10px;}
+.button3 {border-radius: 10px;}
+.button4 {border-radius: 10px;}
+.button5 {border-radius: 10px;}
+.button6 {border-radius: 10px;}
+.button7 {border-radius: 10px;}
+.button8 {border-radius: 10px;}
+.button9 {border-radius: 10px;}
+}
+
+.button1:hover {
+  background-color: #41262b ;
+  color: white;
+}
+
+.button2:hover {
+  background-color: #41262b ;
+  color: white;
+}
+
+.button3:hover {
+  background-color: #41262b ;
+  color: white;
+
+}
+.button4:hover {
+  background-color: #41262b ;
+  color: white;
+}
+.button5:hover {
+  background-color: #41262b ;
+  color: white;
+ }
+.button6:hover {
+  background-color: #41262b ;
+  color: white;
+}
+.button7:hover {
+  background-color: #41262b ;
+  color: white;
+}
+.button8:hover {
+  background-color: #41262b ;
+  color: white;
+}
+.button9:hover {
+  background-color: #41262b  ;
+  color: red;
+}
+
+.container {
+  display: grid;
+  place-items: center; 
+  height: 100vh;  
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+    text-decoration: none;
+	 color: inherit;    
+}
