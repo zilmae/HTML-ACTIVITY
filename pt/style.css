@@ -190,7 +190,6 @@ footer {
     border-radius:15px;
 }
 
-/* About Page Boxes */
 .about-cards {
     display: flex;
     justify-content: center;
@@ -200,7 +199,7 @@ footer {
 }
 
 .about-card {
-    background-color: #1b252c; /* Slightly lighter than main bg */
+    background-color: #1b252c;
     padding: 25px;
     border-radius: 15px;
     width: 250px;
@@ -210,7 +209,7 @@ footer {
 
 .about-card h3 {
     margin-bottom: 10px;
-    color: #ff6f61; /* Accent color for headings */
+    color: #ff6f61; 
 }
 
 .about-card p {
