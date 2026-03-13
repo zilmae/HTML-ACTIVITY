@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Mayamot Daily</title>
+
+<style>
+
+body{
+font-family: Georgia, serif;
+background:#f4f1e8;
+margin:0;
+}
+
+header{
+text-align:center;
+background:#e8e2d0;
+border:4px solid black;
+padding:25px;
+}
+
+header h1{
+font-size:50px;
+margin:0;
+}
+
+header h1::before{
+content:"★ ";
+}
+
+header h1::after{
+content:" ★";
+}
+
+
+.tagline{
+font-style:italic;
+font-family:"Times New Roman", serif;
+font-size:18px;
+margin-top:5px;
+text-align: center;
+}
+
+
+.info{
+font-size:14px;
+margin-top:10px;
+}
+
+
+.breaking{
+background:red;
+color:white;
+padding:12px;
+font-weight:bold;
+text-align:center;
+letter-spacing:1px;
+}
+
+
+nav{
+background:#222;
+padding:12px;
+text-align:center;
+position:sticky;
+top:0;
+z-index:1000;
+box-shadow:0 3px 8px rgba(0,0,0,0.3);
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:18px;
+font-size:18px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+
+.container{
+padding:30px;
+text-align:center;
+}
+
+
+.carousel{
+width:80%;
+margin:auto;
+overflow:hidden;
+border:3px solid black;
+margin-top:20px;
+}
+
+.slides{
+display:flex;
+width:300%;
+animation:slide 12s infinite;
+}
+
+.slides img{
+width:100%;
+}
+
+
+@keyframes slide{
+
+0%{margin-left:0;}
+25%{margin-left:0;}
+
+33%{margin-left:-100%;}
+58%{margin-left:-100%;}
+
+66%{margin-left:-200%;}
+91%{margin-left:-200%;}
+
+100%{margin-left:0;}
+
+}
+
+
+p{
+text-align:justify;
+line-height:1.6;
+margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>The Mayamot Daily</h1>
+
+<p class="tagline">
+Your Trusted Source of Community News
+</p>
+
+<div class="info">
+June 2026 | Edition 1 | Barangay Mayamot, Antipolo City
+</div>
+
+</header>
+
+<div class="breaking">
+BREAKING NEWS: Road Improvement Project Begins in Barangay Mayamot
+</div>
+
+<nav>
+<a href="index.html">Front Page</a>
+<a href="news.html">Local News</a>
+<a href="community.html">Community</a>
+<a href="opinion.html">Opinion</a>
+<a href="future.html">Future</a>
+</nav>
+
+<div class="container">
+
+<h2>Welcome to The Mayamot Daily</h2>
+
+<div class="carousel">
+
+<div class="slides">
+
+<img src="news1.jpg">
+
+<img src="news2.jpg">
+
+<img src="news3.jpg">
+
+</div>
+
+</div>
+
+<p>
+The Mayamot Daily is a digital newspaper dedicated to providing accurate and relevant news about Barangay Mayamot in Antipolo City. The purpose of this newspaper is to keep residents informed about important local developments, community events, and social issues that affect daily life. By presenting reliable and clear information, this digital newspaper aims to strengthen awareness and encourage residents to become more involved in community activities and discussions.
+</p>
+
+<p>
+Through this platform, readers can learn about infrastructure projects, environmental programs, youth activities, and other initiatives happening within the community. Local journalism helps highlight the voices and experiences of residents while promoting transparency and civic responsibility. By staying informed and engaged, the people of Barangay Mayamot can work together to create a safer, cleaner, and more progressive community for future generations.
+</p>
+
+</div>
+
+</body>
+</html>
